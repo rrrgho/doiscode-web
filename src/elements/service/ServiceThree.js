@@ -1,30 +1,33 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
+import BoosterImage from '../../assets/images/services/booster.png'
+import NeedsImage from '../../assets/images/services/needs.png'
+import MaintenanceImage from '../../assets/images/services/maintanance.png'
 
 const ServiceList = [
     {
-        image: '/images/service/icon-01.png',
-        title: 'Awarded Design',
-        description: 'There are many variations variats  of passages of Lorem Ipsum available, but the majority.'
+        image: BoosterImage,
+        title: 'Timeline Booster',
+        description: 'We implement Agile working culture to achieve our timeline goals better'
     },
     {
-        image: '/images/service/icon-02.png',
-        title: 'Design & Creative',
-        description: 'Passages there are many variatin Lorem Ipsum available, but the majority have suffered.'
+        image: NeedsImage,
+        title: 'One Stop Solution',
+        description: "We cover all your Technology Needs. It's on our Hands"
     },
     {
-        image: '/images/service/icon-03.png',
-        title: 'App Development',
-        description: 'Variations There are many of pass ages of Lorem Ipsum available, but the majority but the majority.'
+        image: MaintenanceImage,
+        title: 'Easy Maintenance',
+        description: 'We work with well documentation and secure your confidential property'
     }
 ]
 const ServiceThree = ({textAlign, serviceStyle}) => {
     return (
-        <div className="row row--15 service-wrapper">
+        <div className="row row--15 service-wrapper justify-content-around">
               {ServiceList.map( (val , i) => (
-                <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-                    <ScrollAnimation 
+                <div className="col-lg-3 col-md-6 col-sm-6 col-12" key={i}>
+                    <ScrollAnimation
                     animateIn="fadeInUp"
                     animateOut="fadeInOut"
                     animateOnce={true}>
@@ -33,7 +36,7 @@ const ServiceThree = ({textAlign, serviceStyle}) => {
                                 <div className="image">
                                     <img src={`${val.image}`} alt="card Images" />
                                 </div>
-                                <div className="content">
+                                <div className="content mt-5">
                                     <h4 className="title"><Link to="#service" dangerouslySetInnerHTML={{__html: val.title}}></Link></h4>
                                     <p className="description b1 color-gray mb--0" dangerouslySetInnerHTML={{__html: val.description}}></p>
                                 </div>

@@ -200,6 +200,21 @@
 -------------------------*/
 
 
+// Customize Rian Iregho
+.banner-image{
+    width: 100%;
+
+    @media #{$md-layout} {
+    }
+
+    @media #{$sm-layout} {
+    }
+
+    @media #{$large-mobile} {
+    }
+}
+
+
 
 .zoom-in-out-effect {
     animation: zoom-in-out-effect 2s ease infinite;

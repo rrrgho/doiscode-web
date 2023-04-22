@@ -29,8 +29,8 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                     <div className="row align-items-center row--0">
                         <div className="col-lg-3 col-md-6 col-4">
                             <Logo
-                                image={`${process.env.PUBLIC_URL}/images/app/wigho-horizontal-light-nocanvas.png`}
-                                image2={`${process.env.PUBLIC_URL}/images/app/wigho-horizontal-light-nocanvas.png`}
+                                image={`${process.env.PUBLIC_URL}/images/app/logo/logo-horizontal.png`}
+                                image2={`${process.env.PUBLIC_URL}/images/app/logo/logo-horizontal.png`}
                             />
                         </div>
                         <div className="col-lg-9 col-md-6 col-8 position-static">
@@ -38,15 +38,15 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                                 <nav className="mainmenu-nav d-none d-lg-block">
                                     <Nav />
                                 </nav>
-                                <div className="header-btn">
-                                    <Link className={`btn-default ${btnStyle}`} to="/consult">CONSULT</Link>
-                                </div>
+                                {/*<div className="header-btn">*/}
+                                {/*    <Link className={`btn-default ${btnStyle}`} to="/consult">CONSULT</Link>*/}
+                                {/*</div>*/}
                                 <div className="mobile-menu-bar ml--5 d-block d-lg-none">
                                     <div className="hamberger">
                                         <span className="hamberger-button" onClick={onCanvasHandler}><FiMenu /></span>
                                     </div>
                                 </div>
-                                <Darkmode />
+                                {/*<Darkmode />*/}
                             </div>
                         </div>
                     </div>

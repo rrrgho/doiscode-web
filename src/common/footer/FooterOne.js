@@ -25,8 +25,8 @@ const FooterOne = () => {
                                 <div className="rn-footer-widget">
                                     <div className="logo">
                                         <Logo
-                                            image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
-                                            image2={`${process.env.PUBLIC_URL}/images/logo/logo-dark.png`}
+                                            image={`${process.env.PUBLIC_URL}/images/app/logo/logo-horizontal.png`}
+                                            image2={`${process.env.PUBLIC_URL}/images/app/logo/logo-horizontal.png`}
                                         />
                                     </div>
                                     <h3 className="text-big">{footerIntem.title}</h3>

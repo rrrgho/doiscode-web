@@ -1,23 +1,25 @@
 /*-- Variables --*/
 :root {
     //Themes colors
-    --color-primary: #059DFF;
+    --color-primary: #03F4AC;
     --color-primary-rgba: rgb(5, 157, 255);
-    --color-primary-alt: #059DFF;
-    --color-primary-light: #059DFF;
-    --color-primary-lightest: #059DFF;
-    --color-secondary: #FB5343;
-    --color-tertiary: #6549D5;
-    --color-tertiary-alt: #6549D5;
-    --color-pink: #E33FA1;
+    --color-primary-alt: #03F4AC;
+    --color-primary-light: #03F4AC;
+    --color-primary-lightest: #03F4AC;
+
+
+    --color-secondary: #00aeff;
+    --color-tertiary: #00aeff;
+    --color-tertiary-alt: #6549D5; //
+    --color-pink: #00aeff;
     --color-light-green: #36C6F0;
     --color-primary-darker: #011827;
     --color-tertiary-darker: #150b40;
     --color-secondary-darker: #190301;
     --color-light-green-darker: #001f27;
     --color-pink-darker: #2f011d;
-    
-    // Typo Color 
+
+    // Typo Color
     --color-heading: #ffffff;
     --color-body: #acacac;
 
@@ -36,7 +38,7 @@
 
 
 
-    // Gery Colors 
+    // Gery Colors
     --color-gray: #65676B;
     // --color-midgray: #9F9F9F;
     --color-midgray: #878787;
@@ -45,10 +47,10 @@
     --color-lightest: #F0F2F5;
 
     --color-white: #ffffff;
-    
 
 
-    // Notify Colors 
+
+    // Notify Colors
     --color-success: #3EB75E;
     --color-danger: #FF0003;
     --color-warning: #FF8F3C;
@@ -67,20 +69,20 @@
     --color-discord: #7289da;
 
 
-    // Extra Color 
+    // Extra Color
     --color-extra01: #666666;
     --color-extra02: #606770;
     --color-extra03: #FBFBFD;
     --color-extra04: #1A1A1A;
     --color-extra05: #242424;
-    
+
     //Border-radius
     --border-width: 2px;
     --radius-small: 6px;
     --radius: 10px;
     --radius-big: 16px;
 
-   
+
 
     //Font weight
     //primary font
@@ -109,7 +111,7 @@
     --font-awesome: 'Font Awesome 5 Pro';
 
 
-    
+
     //Fonts Size
     --font-size-b1: 18px;
     --font-size-b2: 16px;
@@ -122,7 +124,7 @@
     --line-height-b3: 1.6; //22px
     --line-height-b4: 1.3; //16px
 
-    // Heading Font 
+    // Heading Font
     --h1: 56px; //52px 1.29
     --h2: 44px; //44px 1.23
     --h3: 36px; // 34px 1.14
