@@ -3,6 +3,8 @@ import {Link} from "react-router-dom";
 import Logo from "../../elements/logo/Logo";
 import footerOne from "../../data/footer/footerOne.json";
 import ScrollTop from "./ScrollTop";
+import Copyright from "./Copyright";
+import CopyrightTwo from "./CopyrightTwo";
 const footerIntem =  footerOne[0];
 const footerIntemOne =  footerOne[1];
 const footerIntemTwo =  footerOne[2];
@@ -16,7 +18,7 @@ const indexThreeLink = (footerIntemThree.quicklink);
 const FooterOne = () => {
     return (
         <>
-            <footer className="rn-footer footer-style-default">
+            <footer className="rn-footer footer-style-default p-3 p-md-0">
                 <div className="footer-top">
                     <div className="container">
                         <div className="row">
@@ -46,22 +48,13 @@ const FooterOne = () => {
                             {/* End Single Widget  */}
 
                             {/* Start Single Widget  */}
-                            <div className="col-lg-2 col-md-6 col-sm-6 col-12">
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="rn-footer-widget">
 
-                                    <div className="widget-menu-top">
-                                        <h4 className="title">{footerIntemTwo.title}</h4>
-
-                                    </div>
-
                                     <div className="widget-menu-bottom">
-                                        <h4 className="title">{footerIntemFour.title}</h4>
+                                        <h4 className="title">{footerIntemTwo.title}</h4>
                                         <div className="inner">
-                                            <ul className="footer-link link-hover">
-                                                {indexTwoLink.map((data, index) => (
-                                                    <li key={index}><Link to={`${data.url}`}>{data.text}</Link></li>
-                                                ))}
-                                            </ul>
+                                            <h6 className="subtitle">{footerIntemTwo.support1} <br/> {footerIntemTwo.support2} <br/> {footerIntemTwo.support3} </h6>
                                         </div>
                                     </div>
 
@@ -87,6 +80,7 @@ const FooterOne = () => {
                                 </div>
                             </div>
                             {/* End Single Widget  */}
+                            <CopyrightTwo />
                         </div>
                     </div>
                 </div>

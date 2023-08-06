@@ -26,14 +26,14 @@ const ServiceThree = ({textAlign, serviceStyle}) => {
     return (
         <div className="row row--15 service-wrapper justify-content-around">
               {ServiceList.map( (val , i) => (
-                <div className="col-lg-3 col-md-6 col-sm-6 col-12" key={i}>
+                <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt-5 mt-md-0" key={i}>
                     <ScrollAnimation
                     animateIn="fadeInUp"
                     animateOut="fadeInOut"
                     animateOnce={true}>
                         <div className={`service ${serviceStyle} ${textAlign}`}>
                             <div className="inner">
-                                <div className="image">
+                                <div className="image p-5 p-md-0">
                                     <img src={`${val.image}`} alt="card Images" />
                                 </div>
                                 <div className="content mt-5">

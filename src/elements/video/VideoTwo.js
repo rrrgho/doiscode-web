@@ -30,13 +30,13 @@ function VideoTwo({galleryItem , imagename}) {
                         <img className="radius-small" src={`${imagename}`} alt="Corporate Image" />
                     </div>
                     <div className="video-icon">
-                        <button className="btn-default rounded-player" onClick={ () => setToggler(!toggler) }><span>{iconHandel()}</span></button>
+                        {/*<button className="btn-default rounded-player" onClick={ () => setToggler(!toggler) }><span>{iconHandel()}</span></button>*/}
                     </div>
                 </div>
             </div>
             <div className="video-lightbox-wrapper">
-                <FsLightbox 
-                toggler={ toggler } 
+                <FsLightbox
+                toggler={ toggler }
                 sources={popupLink} />
             </div>
         </>

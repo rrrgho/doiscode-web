@@ -1,6 +1,5 @@
 import React from "react";
 import BannerImage from "../../assets/images/app/banner-flatdesign-digilab.png";
-import {Link} from "react-router-dom";
 
 const Banner = () => {
     return (
@@ -16,13 +15,13 @@ const Banner = () => {
                         </div>
                         <div className="col-12 col-lg-6 mt-5 mt-md-0">
                             <div className="inner text-center text-lg-start">
-                                <h2 className="title text-secondary d-none d-md-block">Digital Business Booster, <br />Digital Generation Solution {" "}</h2>
-                                <h2 className="title text-secondary d-block d-md-none">Digital Business Booster, <br />Digital Generation Solution {" "}</h2>
+                                <h2 className="title text-dark d-none d-md-block">Digital Business Booster, <br />Digital Solution {" "}</h2>
+                                <h2 className="title text-secondary d-block d-md-none">Digital Business Booster, <br />Digital Solution {" "}</h2>
                                 <p className="subtitle">
                                     We help you to Empower Your Business <br/> with Expert IT Consulting and <br/> New Generation of Digital Solutions.
                                 </p>
                                 <div className="button-group mt-5 bounce">
-                                    <Link className="btn-default btn-medium btn-icon" to="/consult">Discuss Your Need <i className="icon"></i></Link>
+                                    <a className="btn-default btn-medium btn-icon" target="_blank" href="https://wa.me/+6285186897566/?text=Hi,%20I%20Want%20to%20Consult%20with%20Doiscode%20Support%20Team">Discuss Your Need <i className="icon"></i></a>
                                 </div>
                             </div>
                         </div>
